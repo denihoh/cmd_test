@@ -44,7 +44,7 @@ function Home() {
           placeholder="Введите ваш возраст"
         />
       </Form.Group>
-      <Form.Group className="mb-3">
+      <Form.Group className="mt-3">
         <Form.Label>Email</Form.Label>
         <Form.Control
           value={fields.email}
@@ -60,7 +60,7 @@ function Home() {
           placeholder="Введите email"
         />
       </Form.Group>
-      <Form.Group className="mb-3">
+      <Form.Group className="mt-3">
         <Form.Label>Дата записи</Form.Label>
         <Form.Control
           value={fields.date}
@@ -76,7 +76,7 @@ function Home() {
           placeholder="Выберете дату посещения"
         />
       </Form.Group>
-      <Form.Group className="mb-3">
+      <Form.Group className="mt-3">
         <Form.Label>Ваш адрес</Form.Label>
         <AddressSuggestions
           token="541abc59eb2146dab1c3e64fe4d528190fec45e9"
@@ -87,7 +87,7 @@ function Home() {
           }}
         />
       </Form.Group>
-      <Form.Group>
+      <Form.Group className="mt-3">
         <Form.Label>Время записи</Form.Label>
         <Form.Select
           value={fields.time}
