@@ -99,11 +99,10 @@ function Home() {
         >
           <option>Выберете время</option>
           {[...new Array(23)]
-            .map((el, i) => (
-              <option value={i}>
-                {i + ":00"} - {i + 1 + ":00"}
-              </option>
-            ))
+            .map((el, i) => {
+              const time = i + ":00" + " - " + (i + 1 + ":00");
+              return <option value={time}>{time}</option>;
+            })
             .slice(7, 19)}
         </Form.Select>
       </Form.Group>
