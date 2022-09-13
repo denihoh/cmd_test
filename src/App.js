@@ -1,5 +1,6 @@
 import React from "react";
-import { Counter } from "./features/counter/Counter";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import "./App.css";
 import Home from "./pages/Home";
 import Result from "./pages/Result";
